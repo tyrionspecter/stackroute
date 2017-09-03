@@ -1,0 +1,47 @@
+h1{
+	font-family: 'Zeyada', cursive;
+	font-weight: bolder;
+	font-size: 30px;
+	padding: 20px;
+	color:red;
+}
+
+
+li{
+	display:inline;
+	font-family: 'Zeyada', cursive;
+	font-weight: bolder;
+	font-size: 25px;
+	padding-left:15px;
+}
+nav{
+	padding-top:25px;
+	padding-left:100px;
+	margin-top:0;
+}
+ul{
+	float:right;
+}
+
+header{
+	padding-top:20px;
+	height:50px;
+	width:100%;
+	overflow: hidden;
+}
+header a{
+	text-decoration: none;
+	color:red;
+}
+footer{
+ 	font-family: 'Zeyada', cursive;
+ 	font-size: 25px;
+ 	font-weight: bolder;
+ 	text-align: center;
+ 	margin-top: 60%;
+ 	color:red;
+ }
+ footer a{
+	color: white;
+	color: red;
+ } 
