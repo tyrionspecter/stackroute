@@ -1,3 +1,4 @@
+/*for background image*/
 .bi{
 	background:url(../images/i1.jpg);
 	position: fixed;
@@ -21,6 +22,7 @@ h1{
 	color:red;
 	position: fixed;
 	overflow: hidden;
+	text-transform: uppercase;
 }
 
 
@@ -32,6 +34,7 @@ li{
 	padding-left:15px;
 	padding-top:20px;
 }
+
 nav{
 	padding-top:25px;
 	padding-left:500px; 

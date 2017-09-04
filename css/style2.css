@@ -1,3 +1,4 @@
+/*for background image*/
 .bi{
 	background:url(../images/acc3.gif);
 	position: fixed;
@@ -9,45 +10,56 @@
 	background-size: cover;
 
 }
+
 .container{
 	height:100%;
 }
+
+/*to make the image circular*/
 .acc_img{
  	height: 300px;
  	width: 300px;
  	margin: auto;
  	border-radius: 50%;
  }
+
  .one{
 	margin-top: 40px;
 	margin-right: 0;
 	margin-left: 0;
  }
+
  .two{
 	margin-top: 40px;
 	margin-right: 0;
 	margin-left: 0;
  }
+
  .three{
 	margin-top: 40px;
 	margin-right: 0;
 	margin-left: 0;
  }
+
  .one,.two,.three{
  	margin-top: 5%;
  }
+
  .heading1{
  	font-size: 30px;
  	font-family: 'Zeyada', cursive
 }
+
 .heading2{
  	font-size: 30px;
  	font-family: 'Zeyada', cursive
 }
+
 .heading3{
  	font-size: 30px;
  	font-family: 'Zeyada', cursive
 }
+
 p{
 	font-family: 'Zeyada', cursive;
  	text-align: center;	
@@ -61,6 +73,7 @@ h1{
 	font-size: 30px;
 	padding: 20px;
 	color:red;
+	text-transform: uppercase;
 }
 
 

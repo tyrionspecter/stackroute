@@ -1,3 +1,4 @@
+/*for the backgorund image(including the blur effect)*/
 .bi{
 	background:url(../images/his3.jpg);
 	position: fixed;
@@ -15,18 +16,42 @@
 	filter: blur(5px)
 
 }
+
 h1{
 	font-family: 'Zeyada', cursive;
 	font-weight: bolder;
 	font-size: 30px;
 	padding: 20px;
 	color:red;
+	text-transform: uppercase;
 }
+
+h3{
+	font-family: 'Zeyada', cursive;
+	 font-size: 30px; 
+	 text-align: center;
+	 color:white; 
+	 padding-left: 100px; 
+	 padding-right: 100px
+}
+
+#his{
+	margin-top: 0;
+	 text-align: center;
+}
+
+/*for the hero unit*/
 .grid_12{
 		width: 100%
 		margin-top: 20px;
 		margin-right: 0;
 		margin-left: 0;
+		background-color:black;
+		width: 100%;
+		top: 100px;
+		left: 0;
+		background-size: cover;
+		padding-top: 20px;
 }
 
 li{
@@ -36,11 +61,13 @@ li{
 	font-size: 25px;
 	padding-left:15px;
 }
+
 nav{
 	padding-top:25px;
 	padding-left:100px;
 	margin-top:0;
 }
+
 ul{
 	float:right;
 }
@@ -51,10 +78,12 @@ header{
 	width:100%;
 	overflow: hidden;
 }
+
 header a{
 	text-decoration: none;
 	color:red;
 }
+
 footer{
  	font-family: 'Zeyada', cursive;
  	font-size: 25px;
@@ -63,17 +92,20 @@ footer{
  	margin-top: 60%;
  	color:red;
  }
- footer a{
+
+footer a{
 	color: white;
 	color: red;
- } 
- p{
+ }
+
+p{
 	font-family: 'Zeyada', cursive;
  	text-align: center;	
 	font-size: 20px;
 	font-weight: bolder;
 	color: black;
 }
+
 p a{
 	text-decoration: none;
 	color: black;
